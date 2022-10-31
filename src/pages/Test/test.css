@@ -1,0 +1,116 @@
+.test-cont {
+  display: flex;
+  width: 100%;
+  height: 62.5vh;
+  margin-top: 2rem;
+}
+.time-para {
+  position: absolute;
+  width: 62px;
+  height: 29px;
+  left: 652px;
+  top: 104.8px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #333333;
+}
+.test-sec {
+  width: 50%;
+  background-color: #fefbf3;
+}
+.ques-number {
+  width: 10rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #555555;
+}
+.display-ques {
+  width: 568.53px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #333333;
+}
+.options-sec {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #a6a6a6;
+  margin: 0 0 0 2rem;
+}
+.options-sec .options{
+  padding: 0.6rem; 
+}
+.options-sec button{
+  color: #fff;
+  border: none;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: #6464e1;
+
+}
+.button-sec button {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 5rem;
+  cursor: pointer;
+}
+.exit-btn {
+  border: 1px solid #6464e1;
+  color: #6464e1;
+  font-size: 1rem;
+}
+.next-btn {
+  border: none;
+  background-color: #6464e1;
+  color: #fff;
+}
+.notepad-sec {
+  width: 50%;
+  background: #ffffff;
+  height: 465.67px;
+  left: 737.47px;
+  top: 148px;
+  display: flex;
+  flex-direction: column;
+}
+.notepad-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  color: #555555;
+  border-bottom: 0.5px solid #555555;
+  width: 10%;
+  margin: 2rem;
+}
+.scribble-cont textarea {
+  border: none;
+  outline: none;
+  /* width: 40%; */
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 0 2rem;
+  font-size: 0.9rem;
+  font-family: "Roboto";
+  font-style: normal;
+}
