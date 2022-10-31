@@ -1,0 +1,90 @@
+.navbar-cont{
+      background-color: #EEEEEE;
+      width: 100%;
+      height: 5rem;
+      /* box-shadow: 2px 6px 5px -3px rgba(18,5,5,0.75); */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+}
+.Logo{
+      font-size: 1rem;
+      font-weight: 600;
+}
+.icons .nav-icon{
+      padding: 0.6rem;
+}
+.test-category{
+      font-size: 1.1rem;
+      font-weight: 600;
+}
+.Logo img{
+      width: 2rem;
+      height: 2rem;
+}
+.footer-sec{
+      background-color: #EEEEEE;
+      width: 100%;
+      height: 7rem;
+      box-shadow: 2px 6px 5px -3px rgba(18,5,5,0.75);
+}
+.footer-cont{ 
+      display: flex;    
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 2rem;
+}
+.footer-cont ul{
+      padding: 2rem;
+}
+.footer-cont ul li{
+      display: inline;
+      padding: 1rem;
+}
+.para{
+      font-size: 0.8rem;
+}
+.modal-sec{
+      background-color: #EEEEEE;
+      width: 12rem;
+      height: 11rem;
+      position:absolute;
+      top: 40%;
+      right: 45%; 
+      border-radius: 0.8rem;  
+}
+.cross-modal{
+   display: flex;
+   align-items:flex-end;
+   justify-content: flex-end;
+   margin: 0.5rem 0.5rem 0 0;
+
+}
+.warn-icon{
+      display: flex;
+      flex-direction: column;
+}
+.warn-red-icon{
+      color: red;
+      font-size: 1.5rem;
+}
+.warn-title{
+      font-size: 0.7rem;
+      margin-top: 0.5rem;
+}
+.continue-btn button{
+      cursor: pointer;
+      padding: 0.5rem;
+      border: none;
+      background-color: #6464e1;
+      color: #fff;
+}
+.footer-small{
+      font-weight: 500;
+      font-size:0.9rem;
+}
+.footer-large{
+      font-weight: 700;
+      font-size:1.3rem;
+}

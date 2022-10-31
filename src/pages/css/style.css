@@ -1,0 +1,68 @@
+.login-sec{
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+}
+.login-image{
+      background: url("https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGElMjBtYW4lMjB3aXRoJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+      height: 100vh;
+      width: 60vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.login-cont{
+      width: 40vw;
+      height: 100vh;
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+
+}
+.login-fields{
+      background-color: #EEEEEE;
+      height: 20rem;
+      width: 20rem;
+}
+.login-fields input {
+      padding: 0.5rem;
+      margin: 0.5rem 0 0.5rem 0;
+      width: 70%;
+      border: none;
+      outline: none;
+      box-shadow: -2px 19px 5px -19px rgba(0,0,0,0.75);
+}
+.login-btn{
+      padding: 0.6rem;
+      width: 70%;
+      cursor: pointer;
+      border: none;
+      border-radius: 0.2rem;
+      background-color:#2652e1e4;
+      color: #fff;
+      margin: 0.6rem;
+}
+.login-heading{
+      margin-top: 1rem;
+      font-size: 1.2rem;
+}
+.dropdown option{
+      margin-top: 1rem;
+}
+.para Link{
+      text-decoration: none;
+      color: green;
+}
+.title{
+      position: absolute;
+      left: 25%;
+      top: 50%;
+      color: #ffffff;
+    }
+    .title .footer-name {
+      font-size: 2rem;
+    }
+    .title b{
+          font-size: 2.5rem;
+    }
+    
+
