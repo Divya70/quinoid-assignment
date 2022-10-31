@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from "react";
 
 const DataContext = createContext([]);
 const DataProvider = ({ children }) => {
-  const [category, setCategory] = useState();
+  const [category, setCategory] = useState("sports");
   const [score, setScore] = useState(0);
   const [question, setQuestion] = useState([]);
   const [wrongScore, setWrongScore] = useState(0);
